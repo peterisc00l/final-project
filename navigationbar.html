@@ -4,40 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Bootstrap CSS -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-<!-- My CSS -->
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
 
-<link rel="stylesheet" href="style.css" />
-<!-- Font Awesome -->
-
-<script src="https://kit.fontawesome.com/996973c893.js"></script>
-<!-- Google Fonts -->
-
-<link
-
-href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
-
-rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+    rel="stylesheet" />
 </head>
 <body>
-   <div class="conatiner navigaton pt-3">
-    <div class="row">
-        <div class="col-6 d-flex justify-content-end aling-items-centre">
-            <i class="fa fa-spinner fa-spin fa-3x fa-fw text-warning pb-3"></i>
-            <h5 class="d-inline pl-2 text-white">Hello</h5>
+    <div class="container navigation pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fa fa-spinner fa-spin fa-3x fa-fw text-warning pb-3"></i>
+                <h5 class="d-inline pl-2 text-white">My Big Family</h5>
+            </div>
         </div>
-        <div>
-            <div class="col-6 pt-2">
-                <div class="row text-centre p=o d-flex justify-content-end aling-items-centre ">
-                    <div class="col-3">
-                        <a href="#about" class="text-white navigation-link"></a>
-                    </div>
+        <div class="col-6 pt-2">
+            <div class="row text-center p=0 d-flex justify-content-end align-items-center">
+                <div class="col-3">
+                    <a href="#about" class="text-white navigation-link">About</a>
+                </div>
+                <div class="col-3">
+                    <a href="#project" class="text-white navigation-link">family</a>
+                </div>
+                <div class="col-3">
+                    <a href="http://www.google.com" target="_blank" class="text-white navigation-link">Contact</a>
+                </div>
+                <div class="col-3">
+                    <a href="#resume" class="text-white navigation-link">History</a>
                 </div>
             </div>
         </div>
     </div>
-   </div> 
+
+    <div class="container main-container">
+        <div class="text-white">Hi, There!</div>
+        <div class="text-warning m-heading"> a website about my family</div>
+        <div class="text-white">thx for reading</div>
+    </div>
+
+    <div id="about"  class="container about p-5">
+        <div class="row">
+            <div class="col-6">
+                <img src="about.jpeg" class="img-fluid">
+            </div>
+
+            <div class="col-6 pl-5 pb-5 text-white">
+                <h3 class="text-warning">My family</h3>
+                <h1 class="m-heading"> A little about me...</h1>
+                <p>
+                    <b class="text-warning"> my life  </b> my name is peter<b class="text-warning">im one of the family members</b>. we all like people and how they treat us so if you treat us with respect we will also <b class="text-warning">we like visitors</b>.
+                </p>
+                <br>
+                <p>
+                    i have a very big family <b class="text-warning">family </b> i have a dad 3 uncles a 2 grand mothers my mum 2 sisters and brothers
+                     <b class="text-warning">Helping Hand </b> we love to help out each other in difficult times
+                   </p>
+
+                   <button class="btn btn-outline-warning"> Learn more...</button>
+            </div>
+        </div>
+
+    </div>
+<div id="project" class="container mt-5 pt-5">
+    <h1 class=" text-warning mb-3 pb-2">Family Tree</h1>
+    <div class="row">
+        <div class="col-6 mb-5">
+            <div class="card">
+                <img src="messaging.svg" class="card-img-top" style="height:150px">
+                <div class="card-body">
+                    <h5 class="card-title">Some More Facts About us </h5>
+                <p class="card-text">You can message us here</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-6 mb-5">
+            <div class="card">
+                <img src="e-comm.jpg" class="card-img-top" >
+                <div class="card-body">
+                    <h5 class="card-title">Our Skills </h5>
+                <p class="card-text">Our skills help us in many differant ways.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
+
