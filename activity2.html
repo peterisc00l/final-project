@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click the button to get a time-based greeting</p>
+    <button onclick="myfunction()">Try it</button>
+    <p id="hour"></p>
+    <p id="greet"></p>
+    <script>
+        function myfunction() {
+            var greeting;
+            var time = new Data().getHours();
+
+            if(time < 10) {
+            greeting = "Good morning";
+            }
+            else if (time < 20) {}
+        }
+    </script>
+</body>
+</html>
