@@ -11,6 +11,9 @@ class Student extends React.Component {
             favorite_subject: "Math"    
         };
     }
+    favouriteColor = () => {
+        this.setState({favorite_color: "blue"});
+    } 
     render() {
         return(
             <div>
@@ -19,6 +22,7 @@ class Student extends React.Component {
             <p>I am in grade {this.state.grade}</p>
             <p>My favorite color is {this.state.favorite_color}</p>
             <p>My favorite subject is {this.state.favorite_subject}</p>
+            <button type="button"onClick={this.favoriteColor}>Click me</button>
             </div>
         );
     }
