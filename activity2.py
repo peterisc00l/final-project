@@ -1,19 +1,11 @@
-height = float(input("Enter your height in cm: "))
-weight = float(input("Enter your weight in kg: "))
-
-BMI = weight / (height/100)**2
-
-print("Your BMI is", BMI)
-
-if BMI <= 18.4:
-    print("You're underweight.")
-elif BMI <= 24.9:
-    print("You're healthy.")
-elif BMI <= 29.9:
-    print("You're over weight.")
-elif BMI <= 34.9:
-    print("You're severely over weight.")
-elif BMI <= 39.9:
-    print("You're obese.")
-else:
-    print("You're severely obese")
+# Python program to print a star pattern based on the number of the user
+# Get the number of rows from user
+n = int(input("Enter the number of rows :"))
+# Outer loop for each row
+for i in range(1, n+1):
+    # Inner loop for each column in the row
+  for j in range(i):
+    # Print star end with space instaed of new line
+    print('*', end=' ')
+    # After each row, print a new line 
+print()

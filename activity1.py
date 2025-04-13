@@ -1,8 +1,5 @@
-number = int(input("Enter Number to check"))
-print("Number to be checked :", number)
-
-if number%2==0 :
-    print("This is an even number")
-
-else:
-    print("This is an odd number")
+# Python program to print the multiplication table
+# Loop frm 1 to 10
+for i in range(1,11):
+    # Print the multiplication of 23 by i
+    print(f"23 x {i} = {23 * i}")
