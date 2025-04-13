@@ -1,21 +1,8 @@
-name = "Penguin"
-age = 12
-is_student = True
-weight = 86.275
+number = int(input("Enter Number to check"))
+print("Number to be checked :", number)
 
-print("Name :", name)
-print("Data Type of Name is", type(name))
-print("Age :", age)
-print("Data Type of Age is", type(age))
-print("is_student :", is_student)
-print("Data Type of is_student is", type(is_student))
-print("Weight :", weight)
-print("Data Type of Weight is", type(weight))
+if number%2==0 :
+    print("This is an even number")
 
-print("/n After Type Casting....")
-age = str(age)
-print(age)
-print("Data Type of age is", type(age))
-weight = int(weight)
-print(weight)
-print("Data Type of Weight is", type(weight))
+else:
+    print("This is an odd number")
